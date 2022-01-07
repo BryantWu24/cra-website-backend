@@ -80,6 +80,14 @@ const TEXT = {
     "CheckOutSuccess": "送出訂單成功"
 }
 
+app.post('/test',(req,res)=>{
+    res.send({
+        success:true,
+        message:'this is test api.'
+    })
+})
+
+
 // 上傳
 app.post('/api/upload', (req, res) => {
     var form = new formidable.IncomingForm()
