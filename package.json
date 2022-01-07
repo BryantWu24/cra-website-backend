@@ -1,0 +1,25 @@
+{
+  "name": "cra-website-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryantWu24/cra-website-backend.git"
+  },
+  "author": "Bryant.Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryantWu24/cra-website-backend/issues"
+  },
+  "homepage": "https://github.com/BryantWu24/cra-website-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "mysql": "^2.18.1"
+  }
+}
