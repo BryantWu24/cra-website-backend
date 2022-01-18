@@ -275,7 +275,7 @@ app.post("/openapi/bakery/item/list", function async (req, res) {
                 if (!!~movedBakeryItemId.indexOf(item.FBakeryItemId)) {
                     resultObj[item.FBakeryItemId]['ingredients'].push(item.FBakeryMaterialName);
                 } else {
-                    item['ingredients'] = [];
+                    item['ingredients'] = [item.FBakeryMaterialName];
                     resultObj[item.FBakeryItemId] = item;
                     movedBakeryItemId.push(item.FBakeryItemId);
                 }
